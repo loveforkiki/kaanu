@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+  <head>       
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>LOVE FOR KIKI</title>
+  </head>
+  <body>
+<header class="navbar">
+    <div class="logo">
+    </div>
+    <div class="logo-text">We Will Together
+    </div>
+    <!-- Hamburger -->
+    <button class="menu-btn" id="menuOpen" aria-label="Open menu">
+      ☰
+    </button>
+  </header>
+  <!-- Mobile Menu -->
+    <nav class="mobile-menu" id="mobileMenu">
+    <button class="close-btn" id="menuClose" aria-label="Close menu">
+      ✕
+    </button>
+
+    <ul>
+      <li><a href="Our-Gallery/home.html">Our Gallery</a></li>
+      <li><a href="./surprise/index.html">Surprise</a></li>
+      <li><a href="./Our-insatgram/index.html">Our Instagram</a></li>
+      <li><a href="More-Picture/more-pictures.html">More Pictures</a></li>
+      <li><a href="I-Love-You/i-love-you.html">I Love You</a></li>
+      <li><a href="Image-slider/image-slider.html">Image Slider</a></li>
+      <li><a href="Auto-slider/auto-slider.html">Auto Slider</a></li>
+      <li><a href="Rose/rose.html">Rose</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section Start here ........................... -->
+    <div class="main">
+      <div class="hero">
+        <h1>Hi KIKI</h1>
+      </div>
+      <div class="section-1 ">
+        <h2>We Will together One Day</h2>
+      </div>
+  <div class="section-2">
+            <div class="love-note">
+                  <h2 style="display: block ;"> I love you my kiki 💕</h2>
+                  <h2 style="display: block;"> I miss you kiki 💞<h2>
+            </div>
+            <div style="margin-bottom:30px;"  class="msg">
+                <div class="msg-info"> 
+                   <div style="display: flex; align-items: center; justify-content: space-between;">
+                      <div class="time">
+                          <span> June 26 | 17:35pm</span>
+                      </div>
+                    </div>
+                           <p>
+                              Hi kiki. Kya kra rahe ho, dyan rakhna yaar apna , hana , suno
+                               click here pe click kro , click ke baad password me kiki tupe kr ke open our memories pe click kra ke puri website ko ache se explore kro or response dena phir muje
+                               , yaad se hi hana baby. I love you khub sara .
+                           </p>
+                 </div>
+            </div> 
+         <div class="msg"> 
+              <div class="msg-info"> 
+                  <div class="time">
+                      <span> June 26 | 17:40pm
+                     </div>
+                       <p>
+                          please jaldii se jaipur aa jao.
+                          bahut Miss karta hu aap ko kiki 🥺.
+                      </p>
+                 </div>
+        </div>         
+   </div>
+      <!-- Hero Section Ends.................................. -->
+      <!-- contact section starts -->
+      <section class="contact" id="contact">
+        <form
+          id="contact-form"
+          action="https://sheetdb.io/api/v1/shiyodlo4fuy7"
+          method="post"
+        >
+          <div class="field">
+            <i class="fas fa-user"></i>
+            <input type="text" name="data[Name]" placeholder="Name" />  
+          </div>
+          <div class="field">
+            <i class="fas fa-envelope"></i>
+            <input type="text" name="data[Email]" placeholder="How Much You Love Me ?" />
+          </div>
+          <div class="field">
+            <i class="fas fa-phone-alt"></>
+            <input type="text" name="data[Number]" placeholder="How Much You Miss Me ?" />
+          </div>
+          <div class="message">
+            <i class="fas fa-comment-dots"></i>
+            <textarea
+              name="data[Message]"
+              placeholder="Message for Me Kiki.........."
+              required
+            ></textarea>
+          </div>
+          <button type="submit" class="btn btn-animation">
+            Send to your Aaru<i class="fas fa-paper-plane"></i>
+          </button>
+        </form>
+      </section>
+      <!-- contact section ends -->
+ </div>
+
+
+
+<script>
+const menuOpen = document.getElementById("menuOpen");
+const menuClose = document.getElementById("menuClose");
+const mobileMenu = document.getElementById("mobileMenu");
+
+menuOpen.addEventListener("click", () => {
+    mobileMenu.classList.add("active");
+});
+
+menuClose.addEventListener("click", () => {
+    mobileMenu.classList.remove("active");
+});
+
+</script>
+  </body>
+</html>
